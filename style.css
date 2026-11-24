@@ -38,6 +38,22 @@ section{
     backdrop-filter: blur(15px);
     z-index: 4;
 }
+.loginBoxSignUp{
+    position: relative;
+    width: 400px;
+    height: 550px;
+    background-color: #131957 / 50%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(15px);
+    z-index: 4;
+}
+
+.signupHeader{
+    margin-top: 30px;
+}
 
 h2{
     font-size: 30px;
@@ -125,6 +141,7 @@ button{
     font-size: 18px;
     color: black;
     transition: transform 0.3s ease;
+    margin-top: 20px;
 }
 button:hover{
     transform: scale(1.05);
@@ -171,7 +188,7 @@ h5{
 .emptyBorder{
     text-align: center;
     width: 90%;
-    height: 800px;
+    height: 700px;
     position: absolute;
     z-index: 1;
     border: white ridge ;
