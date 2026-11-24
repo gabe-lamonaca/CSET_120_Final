@@ -141,7 +141,8 @@ button{
     font-size: 18px;
     color: black;
     transition: transform 0.3s ease;
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 button:hover{
     transform: scale(1.05);
